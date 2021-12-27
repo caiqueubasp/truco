@@ -1,0 +1,45 @@
+@import "colors";
+
+.button {
+  width: 70px;
+  height: 40px;
+  color: $black-chocolate;
+  background-color: $magnolia;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+
+.button_number {
+  width: 50px;
+  height: 40px;
+  color: $black-chocolate;
+  background-color: $magnolia;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+
+.zero_button {
+  width: 60%;
+  height: 40px;
+  color: $black-chocolate;
+  background-color: $magnolia;
+  font-size: 30px;
+  outline: none;
+  border: none;
+}
+
+.button:active {
+  transform: scale(0.8);
+}
+
+.button_number:active {
+  transform: scale(0.8);
+}
+
+.zero_button:active {
+  transform: scale(0.9);
+}

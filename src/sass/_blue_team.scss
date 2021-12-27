@@ -1,0 +1,11 @@
+@import "colors";
+
+.blue_team_container {
+  margin: auto;
+  min-width: 300px;
+  min-height: 300px;
+  border: none;
+  border-radius: 10px;
+  background-color: $royal-blue-dark;
+  color: $magnolia;
+}
